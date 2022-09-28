@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.CubicCurve?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.QuadCurve?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <Pane prefHeight="600.0" prefWidth="950.0" BorderPane.alignment="CENTER">
+         <children>
+            <CubicCurve controlX1="-164.0" controlX2="259.0" controlY1="-154.0" controlY2="-154.0" endX="350.0" endY="39.0" fill="DODGERBLUE" layoutX="355.0" layoutY="188.0" startX="-265.0" startY="39.0" stroke="BLACK" />
+            <CubicCurve controlX1="-118.0" controlX2="191.0" controlY1="-173.0" controlY2="-154.0" endX="287.0" endY="-21.0" fill="WHITE" layoutX="366.0" layoutY="234.0" startX="-214.0" startY="-21.0" stroke="BLACK" />
+            <Line endX="401.0" layoutX="252.0" layoutY="214.0" startX="-100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="132.0" layoutX="359.0" layoutY="91.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="27.0" />
+            <Line endX="-3.0" endY="108.0" layoutX="361.0" layoutY="105.0" startX="-3.0" startY="3.0" />
+            <Line endX="-3.0" endY="108.19805908203125" layoutX="389.0" layoutY="107.0" startX="-3.0" startY="1.0" />
+            <QuadCurve controlX="-79.0" controlY="25.0" endX="-17.0" endY="-68.82431030273438" fill="DODGERBLUE" layoutX="107.0" layoutY="293.0" startX="-50.0" startY="77.0" stroke="BLACK" strokeType="INSIDE" />
+            <QuadCurve controlX="-112.0" controlY="-13.0" endX="-48.0" endY="31.0" fill="DODGERBLUE" layoutX="125.0" layoutY="402.0" startX="-68.0" startY="-34.0" stroke="BLACK" strokeType="INSIDE" />
+            <QuadCurve controlX="154.0" controlY="20.0" endX="130.0" endY="142.0" fill="DODGERBLUE" layoutX="752.0" layoutY="226.0" startX="-50.0" stroke="BLACK" strokeType="INSIDE" />
+            <QuadCurve controlX="43.0" controlY="-20.0" endX="-33.0" endY="-30.5" fill="DODGERBLUE" layoutX="869.0" layoutY="464.0" startX="13.0" startY="-98.0" stroke="BLACK" strokeType="INSIDE" />
+            <Line endX="100.0" layoutX="767.0" layoutY="433.0" startX="-2.0" />
+            <Line endX="72.0" endY="3.0" layoutX="459.0" layoutY="430.0" startX="-89.0" />
+            <Line endX="35.0" endY="-1.0" layoutX="101.0" layoutY="434.0" startX="-24.0" startY="-1.0" />
+            <Polygon fill="DODGERBLUE" layoutX="451.0" layoutY="331.0" points="-363.1756591796875, -105.0, -397.0, 40.0, -374.5, 102.5, 416.5, 101.5, 433.5263671875, 37.0, 251.0, -105.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Ellipse fill="#f5f7f8" layoutX="253.0" layoutY="430.0" radiusX="117.0" radiusY="109.0" strokeType="INSIDE" strokeWidth="0.0">
+               <stroke>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </stroke>
+            </Ellipse>
+            <Ellipse fill="#f8fcff" layoutX="648.0" layoutY="433.0" radiusX="117.0" radiusY="109.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Circle layoutX="253.0" layoutY="435.0" radius="99.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="252.0" layoutY="429.0" radius="44.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle layoutX="648.0" layoutY="435.0" radius="99.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="648.0" layoutY="429.0" radius="44.0" stroke="BLACK" strokeType="INSIDE" />
+            <QuadCurve controlX="-50.0" controlY="-76.0" endX="1.0" endY="-76.0" fill="#eeeeee" layoutX="827.0" layoutY="334.0" rotate="99.5" startX="-40.0" startY="-18.0" stroke="BLACK" strokeType="INSIDE" />
+            <QuadCurve controlX="-50.0" controlY="-76.0" endX="1.0" endY="-76.0" fill="#eeeeee" layoutX="827.0" layoutY="335.0" rotate="-81.7" startX="-40.0" startY="-18.0" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1d1e1e" height="10.0" layoutX="431.0" layoutY="254.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
